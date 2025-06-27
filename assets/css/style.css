@@ -43,12 +43,12 @@ div#content {
 
 div#hero {
     background-color: #00091e;
-    background-image: url(../images/hero-bg.webp);
+    background-image: url(../images/humogen.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     color: #fff;
-    padding: 100px 0;
+    padding: 60px 0;
 }
 
 div#hero i.fa {
