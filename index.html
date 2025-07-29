@@ -69,252 +69,48 @@
     </div> <!-- .section -->
     <div id="schedule" class="section">
       <div class="container">
-        <h2>Schedule (TODO, change speakers)</h2>
-        <table class="table table-striped">
-          <thead>
-            <tr>
-              <th scope="col">Time (GMT-10)</th>
-              <th scope="col">Programme</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>09:20 - 09:30</td>
-              <td>Opening Remarks</td>
-            </tr>
-            <tr>
-              <td>09:40 - 10:20</td>
-              <td class="programme">
-                <p class="title">Invited Talk: Scaling Foundation World Models as a Path to Embodied AGI</p>
-                <ul class="list-inline">
-                  <li class="list-inline-item"><a href="javascript:void(0)">[Abstract]</a></li>
-                  <li class="list-inline-item"><a href="javascript:void(0)">[Speaker Bio]</a></li>
-                </ul>
-                <p class="abstract">Simulation offers tremendous promise for training and evaluating agents in diverse controllable settings, yet, we remain far from building a simulator that is anywhere near as rich as the real world. But what if we could learn one? With the advent of foundation world models we are now entering a new era, where we can train world models from vast quantities of passively acquired data such as internet videos. These foundation world models can then generate unlimited environments for agents, offering the path to open-ended curricula. This talk outlines progress in this space over the past two years, while looking ahead to the future.</p>
-                <p class="bio">Jack Parker-Holder is a Research Scientist at Google DeepMind where he works on foundation world models. Jack co-led the Genie project which won the Best Paper Award at ICML 2024 and was the lead of Genie 2. He is also an honorary lecturer at University College London where he co-leads the Open-Endedness and General Intelligence module. Prior to Google DeepMind Jack completed his DPhil at the University of Oxford where his research focused on world models and open-ended learning.</p>
-                <div class="speaker d-flex">
-                  <div class="avatar">
-                    <img src="/assets/images/avatars/jack.webp">
-                  </div> <!-- .avatar -->
-                  <div class="desc">
-                    <span class="name">Jack Parker-Holder</span><br>
-                    <span class="position">Research Scientist, Google DeepMind</span>
-                  </div> <!-- .desc -->
-                </div> <!-- .speaker -->
-              </td>
-              </td>
-            </tr>
-            <tr>
-              <td>10:20 - 10:40</td>
-              <td>Coffee Break</td>
-            </tr>
-            <tr>
-              <td>10:40 - 11:20</td>
-              <td class="programme">
-                <p class="title">Invited Talk: Physics-Grounded World Models: Generation, Interaction, and Evaluation</p>
-                <ul class="list-inline">
-                  <li class="list-inline-item"><a href="javascript:void(0)">[Abstract]</a></li>
-                  <li class="list-inline-item"><a href="javascript:void(0)">[Speaker Bio]</a></li>
-                </ul>
-                <p class="abstract">Video generation models, by learning to synthesize pixels from large-scale real-world data, have shown great promise as world models. Yet, pixel-only approaches face critical challenges: they struggle with precise action control, cannot guarantee physical consistency, and suffer from computational inefficiency—fundamentally limiting how users and agents can interact with these virtual worlds. At the heart of these limitations lies a crucial missing piece: explicit physical grounding. In this talk, I will present how we address this gap through physics-grounded world models: WonderWorld enables fast, interactive world generation and real-time exploration by introducing a physics-based representation, and WonderPlay extends this to dynamic action control by integrating physics simulation with video generation. Finally, I will introduce WorldScore, a unified benchmark that evaluates world models—spanning 3D, 4D, and video generation—on their ability to generate controllable, consistent, and dynamic worlds. These works outline a path towards interactive world models by synergizing neural pixel generation and physical understanding.</p>
-                <p class="bio">Hong-Xing "Koven" Yu is a PhD candidate at the Computer Science Department of Stanford University, advised by Prof. Jiajun Wu. His research interest centers around how AI can understand and generate the physical world. He is a recipient of the SIGGRAPH Asia Best Paper Award, the Stanford SoE Fellowship, the Qualcomm Innovation Fellowship, and the Meshy Fellowship, and a finalist of the NVIDIA Fellowship, the Meta Fellowship, the Jane Street Fellowship, and the Roblox Fellowship.</p>
-                <div class="speaker d-flex">
-                  <div class="avatar">
-                    <img src="/assets/images/avatars/koven.webp">
-                  </div> <!-- .avatar -->
-                  <div class="desc">
-                    <span class="name">Hong-Xing "Koven" Yu</span><br>
-                    <span class="position">Ph.D. candidate at  Stanford University</span>
-                  </div> <!-- .desc -->
-                </div> <!-- .speaker -->
-              </td>
-            </tr>
-            <tr>
-              <td>11:20 - 13:30</td>
-              <td>Lunch Break</td>
-            </tr>
-            <tr>
-              <td>13:30 - 14:10</td>
-              <td class="programme">
-                <p class="title">Invited Talk: Breaking the Algorithmic Ceiling in Pre-Training with an Inference-first Perspective</p>
-                <ul class="list-inline">
-                  <li class="list-inline-item"><a href="javascript:void(0)">[Abstract]</a></li>
-                  <li class="list-inline-item"><a href="javascript:void(0)">[Speaker Bio]</a></li>
-                </ul>
-                <p class="abstract">Recent years have seen significant advancements in foundation models through generative pre-training, yet algorithmic innovation in this space has largely stagnated around autoregressive models for discrete signals and diffusion models for continuous signals. This stagnation creates a bottleneck that prevents us from fully unlocking the potential of rich multi-modal data, which in turn limits the progress on multimodal intelligence. We argue that an inference-first perspective, which prioritizes scaling efficiency during inference time across sequence length and refinement steps, can inspire novel generative pre-training algorithms. Using Inductive Moment Matching (IMM) as a concrete example, we demonstrate how addressing limitations in diffusion models' inference process through targeted modifications yields a stable, single-stage algorithm that achieves superior sample quality with over an order of magnitude greater inference efficiency.</p>
-                <p class="bio">Jiaming Song is the Chief Scientist in Luma AI, where he is working on next-generation multimodal foundation models. He received his Ph.D. at Stanford University, under the supervision of Stefano Ermon. He has developed a few early works on diffusion models, such as DDIM. He is the recipient of the ICLR 2022 Outstanding Paper Award.</p>
-                <div class="speaker d-flex">
-                  <div class="avatar">
-                    <img src="/assets/images/avatars/jiaming.webp">
-                  </div> <!-- .avatar -->
-                  <div class="desc">
-                    <span class="name">Zhengyi Luo</span><br>
-                    <span class="position">Chief Scientist at Luma AI</span>
-                  </div> <!-- .desc -->
-                </div> <!-- .speaker -->
-              </td>
-            </tr>
-            <tr>
-              <td>14:10 - 14:20</td>
-              <td>Coffee Break</td>
-            </tr>
-            <tr>
-              <td>14:20 - 15:00</td>
-              <td class="programme">
-                <p class="title">Invited Talk: An Introduction to Kling and Our Research towards More Powerful Video Generation Models</p>
-                <ul class="list-inline">
-                  <li class="list-inline-item"><a href="javascript:void(0)">[Abstract]</a></li>
-                  <li class="list-inline-item"><a href="javascript:void(0)">[Speaker Bio]</a></li>
-                </ul>
-                <p class="abstract">We introduce modern video generation and world model technologies using Kling, Kuaishou's video generation model, as an example. We will firstly provide a brief overview of Kling's main capabilities and features, and then delve into our ongoing research in four key directions: 1) advancing model architecture and generative AI algorithms; 2) enhancing powerful interactive and control capacities; 3) incorporating accurate evaluation and alignment mechanisms; and 4) improving multimodal perception and reasoning. We hope this tutorial will help the audience better understand Kling and our vision for future video generation and world models.</p>
-                <p class="bio">Pengfei Wan is the head of Visual Generation and Interaction Center (aka the Kling team), Kuaishou Technology. He obtained the PhD degree from HKUST in 2015. He has long been committed to R&D of intelligent content creation and immersive interaction systems. His team developed the Kling video generation models that have over 20 million users worldwide.</p>
-                <div class="speaker d-flex">
-                  <div class="avatar">
-                    <img src="/assets/images/avatars/pengfei.webp">
-                  </div> <!-- .avatar -->
-                  <div class="desc">
-                    <span class="name">Pengfei Wan</span><br>
-                    <span class="position">Head of Kling Video Generation Models</span>
-                  </div> <!-- .desc -->
-                </div> <!-- .speaker -->
-              </td>
-            </tr>
-            <tr>
-              <td>15:00 - 15:10</td>
-              <td>Coffee Break</td>
-            </tr>
-            <tr>
-              <td>15:10 - 15:50</td>
-              <td class="programme">
-                <p class="title">Invited Talk: Streaming Perception: Towards Learning Structured Models of the World</p>
-                <ul class="list-inline">
-                  <li class="list-inline-item"><a href="javascript:void(0)">[Abstract]</a></li>
-                  <li class="list-inline-item"><a href="javascript:void(0)">[Speaker Bio]</a></li>
-                </ul>
-                <p class="abstract">In this talk, I’ll reflect on the rise of video models and what it means to learn a world model. Recent video models are reaching an uncanny level of visual realism. They certainly look like they understand the world. They’re getting remarkably good at rendering (!). But how do we make that understanding more concrete, more structured—something we can reason with and act on? I’ll suggest that getting there might require streaming perception: systems that build structured, persistent internal representations from continuous input. I’ll share recent works like CUT3R and ST4rtrack as steps in this direction, and offer a perspective shaped by my recent experience raising a small human.</p>
-                <p class="bio">Angjoo Kanazawa is an Assistant Professor in the Department of Electrical Engineering and Computer Sciences at the University of California, Berkeley. She develops methods for perceiving, understanding, and interacting with the dynamic 3D world behind everyday images and video. Her research has been recognized with honors including the Google Research Scholar Award, Sloan Fellowship, the PAMI Young Researcher Award and the NSF CAREER award. Prior to joining Berkeley, she completed her Ph.D. at the University of Maryland, College Park, and spent time at the Max Planck Institute for Intelligent Systems and Google Research.</p>
-                <div class="speaker d-flex">
-                  <div class="avatar">
-                    <img src="/assets/images/avatars/angjoo.webp">
-                  </div> <!-- .avatar -->
-                  <div class="desc">
-                    <span class="name">Angjoo Kanazawa</span><br>
-                    <span class="position">Assistant Professor, UC Berkeley</span>
-                  </div> <!-- .desc -->
-                </div> <!-- .speaker -->
-              </td>
-            </tr>
-            <tr>
-              <td>15:50 - 16:00</td>
-              <td>Coffee Break</td>
-            </tr>
-            <tr>
-              <td>16:00 - 16:40</td>
-              <td class="programme">
-                <p class="title">Invited Talk: Scaling World Models for Agents</p>
-                <ul class="list-inline">
-                  <li class="list-inline-item"><a href="javascript:void(0)">[Abstract]</a></li>
-                  <li class="list-inline-item"><a href="javascript:void(0)">[Speaker Bio]</a></li>
-                </ul>
-                <p class="abstract">World modeling through video generation has great potential including being used to train general-purpose agents. In this tutorial, we will first discuss how to build world models that can emulate a diverse set of real-world environments in reaction to different types of action inputs. We then discuss how a world model can be used for long-horizon planning, as well as for evaluating and improving embodied agents. Lastly, we will discuss how to improve the world model itself through Reinforcement Learning from external feedback and Iterative learning and data generation.</p>
-                <p class="bio">Sherry Yang is an incoming Assistant Professor of Computer Science at NYU Courant and a Staff Research Scientist at Google DeepMind. She researches in machine learning with a focus on reinforcement learning and generative modeling. Her current research interests include learning world models and agents, and their applications in robotics and AI for science. Her research has been recognized by the Best Paper award at ICLR and media outlets such as VentureBeat and TWIML. She has organized tutorials, workshops, and served as Area Chairs at major conferences (NeurIPS, ICLR, ICML, CVPR). Prior to her current role, she was a post-doc at Stanford working with Percy Liang. She received her Ph.D. from UC Berkeley advised by Pieter Abbel and Master’s and Bachelor's degrees from MIT.</p>
-                <div class="speaker d-flex">
-                  <div class="avatar">
-                    <img src="/assets/images/avatars/sherry.webp">
-                  </div> <!-- .avatar -->
-                  <div class="desc">
-                    <span class="name">Sherry Yang</span><br>
-                    <span class="position">Assistant Professor, New York University</span>
-                  </div> <!-- .desc -->
-                </div> <!-- .speaker -->
-              </td>
-            </tr>
-            <tr>
-              <td>16:40 - 16:50</td>
-              <td>Ending Remarks (Lucky Draw)</td>
-            </tr>
-          </tbody>
-        </table>
+        <h2>Schedule (TODO)</h2>
       </div> <!-- .container -->
     </div> <!-- .section -->
     <div id="speakers" class="section">
       <div class="container">
-        <h2>Speakers (TODO, change speakers)</h2>
+        <h2>Speakers (TODO)</h2>
         <div class="row">
           <div class="col-lg-3 col-md-4 col-6">
             <div class="card">
-              <img src="/assets/images/avatars/angjoo.webp" class="card-img-top">
+              <img src="/assets/images/avatars/libin_liu.webp" class="card-img-top">
               <div class="card-body">
-                <h5 class="card-title">Angjoo Kanazawa</h5>
-                <p class="card-text">UC Berkeley</p>
+                <h5 class="card-title">Libin Liu</h5>
+                <p class="card-text">Peking University</p>
                 <ul class="list-inline">
-                  <li class="list-inline-item"><a href="//people.eecs.berkeley.edu/~kanazawa/" target="_blank"><i class="fa fa-house"></i></a></li>
-                  <li class="list-inline-item"><a href="//scholar.google.com/citations?user=Ci-_QYIAAAAJ" target="_blank"><i class="fa-brands fa-google-scholar"></i></a></li>
+                  <li class="list-inline-item"><a href="https://cfcs.pku.edu.cn/libinliu/" target="_blank"><i class="fa fa-house"></i></a></li>
+                  <li class="list-inline-item"><a href="https://scholar.google.com/citations?user=q7FiLBkAAAAJ&hl=en" target="_blank"><i class="fa-brands fa-google-scholar"></i></a></li>
                 </ul>
               </div> <!-- .card-body -->
             </div> <!-- .card -->
           </div> <!-- .col -->
           <div class="col-lg-3 col-md-4 col-6">
             <div class="card">
-              <img src="/assets/images/avatars/koven.webp" class="card-img-top">
+              <img src="/assets/images/avatars/chuan_guo.webp" class="card-img-top">
               <div class="card-body">
-                <h5 class="card-title">Hong-Xing "Koven" Yu</h5>
-                <p class="card-text">Stanford</p>
+                <h5 class="card-title">Chuan Guo</h5>
+                <p class="card-text">Snap</p>
                 <ul class="list-inline">
-                  <li class="list-inline-item"><a href="//kovenyu.com" target="_blank"><i class="fa fa-house"></i></a></li>
-                  <li class="list-inline-item"><a href="//scholar.google.com/citations?user=kNKncZcAAAAJ" target="_blank"><i class="fa-brands fa-google-scholar"></i></a></li>
+                  <li class="list-inline-item"><a href="https://ericguo5513.github.io/" target="_blank"><i class="fa fa-house"></i></a></li>
+                  <li class="list-inline-item"><a href="https://scholar.google.com/citations?user=eCdqvJoAAAAJ&hl=en" target="_blank"><i class="fa-brands fa-google-scholar"></i></a></li>
                 </ul>
               </div> <!-- .card-body -->
             </div> <!-- .card -->
           </div> <!-- .col -->
           <div class="col-lg-3 col-md-4 col-6">
             <div class="card">
-              <img src="/assets/images/avatars/jack.webp" class="card-img-top">
-              <div class="card-body">
-                <h5 class="card-title">Jack Parker-Holder</h5>
-                <p class="card-text">Google Deepmind</p>
-                <ul class="list-inline">
-                  <li class="list-inline-item"><a href="//jparkerholder.github.io" target="_blank"><i class="fa fa-house"></i></a></li>
-                  <li class="list-inline-item"><a href="//scholar.google.com/citations?user=2O_ESc4AAAAJ" target="_blank"><i class="fa-brands fa-google-scholar"></i></a></li>
-                </ul>
-              </div> <!-- .card-body -->
-            </div> <!-- .card -->
-          </div> <!-- .col -->
-          <div class="col-lg-3 col-md-4 col-6">
-            <div class="card">
-              <img src="/assets/images/avatars/zhengyi.png" class="card-img-top">
+              <img src="/assets/images/avatars/zhengyi.webp" class="card-img-top">
               <div class="card-body">
                 <h5 class="card-title">Zhengyi Luo</h5>
                 <p class="card-text">Nvidia</p>
                 <ul class="list-inline">
                   <li class="list-inline-item"><a href="https://www.zhengyiluo.com/" target="_blank"><i class="fa fa-house"></i></a></li>
                   <li class="list-inline-item"><a href="https://scholar.google.com/citations?user=lHPTxGsAAAAJ&hl=en" target="_blank"><i class="fa-brands fa-google-scholar"></i></a></li>
-                </ul>
-              </div> <!-- .card-body -->
-            </div> <!-- .card -->
-          </div> <!-- .col -->
-          <div class="col-lg-3 col-md-4 col-6">
-            <div class="card">
-              <img src="/assets/images/avatars/pengfei.webp" class="card-img-top">
-              <div class="card-body">
-                <h5 class="card-title">Pengfei Wan</h5>
-                <p class="card-text">Kling AI, Kuaishou</p>
-                <ul class="list-inline">
-                  <li class="list-inline-item"><a href="//www.kuaishou.com/en" target="_blank"><i class="fa fa-house"></i></a></li>
-                  <li class="list-inline-item"><a href="//scholar.google.com/citations?user=P6MraaYAAAAJ" target="_blank"><i class="fa-brands fa-google-scholar"></i></a></li>
-                </ul>
-              </div> <!-- .card-body -->
-            </div> <!-- .card -->
-          </div> <!-- .col -->
-          <div class="col-lg-3 col-md-4 col-6">
-            <div class="card">
-              <img src="/assets/images/avatars/sherry.webp" class="card-img-top">
-              <div class="card-body">
-                <h5 class="card-title">Sherry Yang</h5>
-                <p class="card-text">New York University</p>
-                <ul class="list-inline">
-                  <li class="list-inline-item"><a href="//sherryy.github.io/" target="_blank"><i class="fa fa-house"></i></a></li>
-                  <li class="list-inline-item"><a href="//scholar.google.com/citations?user=7c1B_fIAAAAJ" target="_blank"><i class="fa-brands fa-google-scholar"></i></a></li>
                 </ul>
               </div> <!-- .card-body -->
             </div> <!-- .card -->
